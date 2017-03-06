@@ -54,6 +54,7 @@
 		E51970151E6D3E4D00D6B921 /* DouYuLiveWL */ = {
 			isa = PBXGroup;
 			children = (
+				E51970281E6D400200D6B921 /* Classes */,
 				E51970161E6D3E4D00D6B921 /* AppDelegate.swift */,
 				E51970181E6D3E4D00D6B921 /* ViewController.swift */,
 				E519701A1E6D3E4D00D6B921 /* Main.storyboard */,
@@ -62,6 +63,141 @@
 				E51970221E6D3E4D00D6B921 /* Info.plist */,
 			);
 			path = DouYuLiveWL;
+			sourceTree = "<group>";
+		};
+		E51970281E6D400200D6B921 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E51970291E6D400200D6B921 /* Follow */,
+				E519702A1E6D400200D6B921 /* Home */,
+				E519702F1E6D400200D6B921 /* Live */,
+				E51970301E6D400200D6B921 /* Main */,
+				E51970351E6D400200D6B921 /* Room */,
+				E51970371E6D400200D6B921 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E51970291E6D400200D6B921 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		E519702A1E6D400200D6B921 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E519702B1E6D400200D6B921 /* Controller */,
+				E519702C1E6D400200D6B921 /* Model */,
+				E519702D1E6D400200D6B921 /* View */,
+				E519702E1E6D400200D6B921 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E519702B1E6D400200D6B921 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E519702C1E6D400200D6B921 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E519702D1E6D400200D6B921 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E519702E1E6D400200D6B921 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E519702F1E6D400200D6B921 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		E51970301E6D400200D6B921 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E51970311E6D400200D6B921 /* Controller */,
+				E51970321E6D400200D6B921 /* Model */,
+				E51970331E6D400200D6B921 /* View */,
+				E51970341E6D400200D6B921 /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E51970311E6D400200D6B921 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E51970321E6D400200D6B921 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E51970331E6D400200D6B921 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E51970341E6D400200D6B921 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E51970351E6D400200D6B921 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				E51970361E6D400200D6B921 /* Controller */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		E51970361E6D400200D6B921 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E51970371E6D400200D6B921 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E51970381E6D400200D6B921 /* Extension */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E51970381E6D400200D6B921 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +232,7 @@
 				TargetAttributes = {
 					E51970121E6D3E4D00D6B921 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LS35ZZ469J;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -258,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LS35ZZ469J;
 				INFOPLIST_FILE = DouYuLiveWL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eview.DouYuLiveWL;
@@ -270,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LS35ZZ469J;
 				INFOPLIST_FILE = DouYuLiveWL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eview.DouYuLiveWL;
